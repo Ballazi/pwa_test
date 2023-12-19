@@ -1,0 +1,38 @@
+.labeled-textfield {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.label-and-input {
+    display: flex;
+    flex-direction: column;
+    /* border-color: blueviolet; */
+    padding: 8px 12px;
+    border-radius: 8px;
+    /* margin-bottom: 8px; */
+    width: 100%;
+}
+
+.mandatory-star {
+    color: red;
+}
+
+.header {
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.buttonsCard{
+    text-align: center;
+    margin-top: 20px;
+}
+.buttonsCard button{
+    margin-right: 10px;
+}
+.customDropBox {
+
+    border: 1px dashed hsla(240, 7%, 62%, 1);
+    text-align: center;
+    padding: 5px;
+}

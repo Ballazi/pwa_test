@@ -1,0 +1,179 @@
+/* Typography Defination */
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Thin.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Thin.woff") format("woff"),
+    url("/assets/fonts/Switzer-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Extralight.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Extralight.woff") format("woff"),
+    url("/assets/fonts/Switzer-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Light.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Light.woff") format("woff"),
+    url("/assets/fonts/Switzer-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Regular.woff") format("woff"),
+    url("/assets/fonts/Switzer-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Medium.woff") format("woff"),
+    url("/assets/fonts/Switzer-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Semibold.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Semibold.woff") format("woff"),
+    url("/assets/fonts/Switzer-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Bold.woff") format("woff"),
+    url("/assets/fonts/Switzer-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Extrabold.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Extrabold.woff") format("woff"),
+    url("/assets/fonts/Switzer-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/assets/fonts/Switzer-Black.woff2") format("woff2"),
+    url("/assets/fonts/Switzer-Black.woff") format("woff"),
+    url("/assets/fonts/Switzer-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Custom Properties */
+:root {
+  /* color */
+  --primary: #065ad8;
+
+  --secondary: #122b47;
+  --accent: #e5f3ff;
+  --title: #1785ea;
+
+  /* misc */
+  --base-border-radius: 8px;
+  --base-border-radius-2: 12px;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f6f8f9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .ps-menu-button {
+  color: #97b2d8 !important;
+} */
+
+/* .ps-active {
+  color: #f5f9ff !important;
+} */

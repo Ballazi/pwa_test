@@ -1,0 +1,18 @@
+{
+  "en": {
+    "translations": {
+      "My Name": "TMS Web App",
+      "Welcome to React": "Wel come to Truck management system",
+      "welcome": "Hello <strong>World</strong>",
+      "dashboard": "Dashboard"
+    }
+  },
+  "hi": {
+    "translations": {
+      "My Name": "टीएमएस वेब ऐप",
+      "Welcome to React": "ट्रक प्रबंधन प्रणाली में आपका स्वागत है",
+      "welcome": "नमस्ते <strong>दुनिया</strong>",
+      "dashboard": "डैशबोर्ड"
+    }
+  }
+}
